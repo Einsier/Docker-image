@@ -6,7 +6,7 @@ ENV ZK_USER=zookeeper \
     ZK_LOG_DIR=/var/log/zookeeper \
     JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
-ARG GPG_KEY=E0BC7FA60D7215F73873DB60D552BA93A87AA344
+ARG GPG_KEY=15DFA1BA
 ARG ZK_DIST=zookeeper-3.4.14
 
 RUN set -x \
