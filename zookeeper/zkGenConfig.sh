@@ -110,6 +110,7 @@ function create_config() {
 
 function create_data_dirs() {
     echo "Creating ZooKeeper data directories and setting permissions"
+    chown -R  $ZK_USER:$ZK_USER /var/lib/zookeeper
 
     if [ ! -d $ZK_DATA_DIR  ]; then
         mkdir -p $ZK_DATA_DIR
