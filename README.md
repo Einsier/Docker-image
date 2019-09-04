@@ -1,1 +1,1 @@
-# Docker-image
+# for k8s deploy
